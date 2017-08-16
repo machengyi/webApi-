@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weiapi练习", "weiapi练习\weiapi练习.csproj", "{FF16877A-7703-437E-9D20-3AA3C5FF17E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest", "MVCTest\MVCTest.csproj", "{7780A672-32B5-4F18-BB5E-7B074F5E63D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF16877A-7703-437E-9D20-3AA3C5FF17E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF16877A-7703-437E-9D20-3AA3C5FF17E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF16877A-7703-437E-9D20-3AA3C5FF17E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF16877A-7703-437E-9D20-3AA3C5FF17E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7780A672-32B5-4F18-BB5E-7B074F5E63D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7780A672-32B5-4F18-BB5E-7B074F5E63D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7780A672-32B5-4F18-BB5E-7B074F5E63D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7780A672-32B5-4F18-BB5E-7B074F5E63D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

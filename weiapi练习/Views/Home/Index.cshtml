@@ -1,0 +1,26 @@
+﻿<div id="userName">
+
+</div>
+<div id="userEmail">
+
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function () {
+        function loadData() {
+            $.ajax({
+                type: "GET",
+                url: "api/user/GetUserByID?userName=macya",
+                dataType: "json",
+                success: function (data, textStatus) {
+                    alert(data.UserID + " | " + data.UserName);
+                },
+                error: function (xmlHttpRequest, textStatus, errorThrown) {
+
+                }
+            })
+        }
+
+        loadData();
+    })
+</script>
